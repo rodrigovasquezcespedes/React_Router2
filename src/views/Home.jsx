@@ -1,7 +1,7 @@
 import { Container, Row, Col } from 'react-bootstrap'
 import Image from '../assets/title.png'
 import gif from '../assets/image.gif'
-import CardPokemon from  '../components/CardPokemon'
+import CardPokemon from '../components/CardPokemon'
 
 const Home = () => {
   return (
