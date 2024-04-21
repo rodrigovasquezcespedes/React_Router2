@@ -27,8 +27,8 @@ const CardPokemon = ({ pokemon }) => {
             style={{ width: '300px', marginLeft: '440px', marginTop: '-415px' }}
           >
             <h3>{name}</h3>
-            <span className='card-text'>Altura: {height} decímetros</span>
-            <p className='card-text'>Peso: {weight} hectogramos</p>
+            <span className='card-text'>Altura: {height * 10} Centimetros</span>
+            <p className='card-text'>Peso: {weight / 10} Kilos</p>
             <span className='card-text'>Tipo: {types.map(type => type.type.name).join(', ')}</span>
             <p className='card-text'>
               Habilidades: {abilities.map(ability => ability.ability.name).join(', ')}

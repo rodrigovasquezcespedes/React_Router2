@@ -15,7 +15,7 @@ const PokemonSelect = () => {
       <div className='row justify-content-center '>
         <div className='col-md-4'>
           <div className='position-relative p-1'>
-            <img src={Image} alt='Imagen' className='w-100 h-50' />
+            <img src={Image} alt='Imagen' className='w-100 h-25' />
             <div className='list-container p-2  w-75 h-75 position-absolute top-50 start-50 translate-middle '>
               <div className='border text-white bg-dark w-100  p-1 mx-2 my-5  '>
                 <h2 className='text-center text-danger fs-5'>
