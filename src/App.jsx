@@ -4,6 +4,7 @@ import Navbar from './components/Navbar'
 import Home from './views/Home'
 import Pokemones from './views/Pokemones'
 import NotFound from './views/NotFound'
+import DetailPokemon from './views/DetailPokemon'
 
 import 'bootstrap/dist/css/bootstrap.min.css'
 
@@ -14,6 +15,7 @@ const App = () => {
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path='/Pokemones' element={<Pokemones />} />
+        <Route path='/Pokemones/:name' element={<DetailPokemon />} />
         <Route path='*' element={<NotFound />} />
       </Routes>
     </div>
